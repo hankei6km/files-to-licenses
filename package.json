@@ -1,6 +1,6 @@
 {
   "name": "@hankei6km/files-to-licenses",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate licenses text from package source files",
   "author": "hankei6km <hankei6km@gmail.com> (https://github.com/hankei6km)",
   "license": "MIT",

@@ -5,7 +5,7 @@ Generate licenses text from package source files
 ## Install
 
 ```
-npm install --save-dev files-to-licenses
+npm install --save-dev @hankei6km/files-to-licenses
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import * as esbuild from 'esbuild'
-import { FilesToLicenses } from 'files-to-licenses'
+import { FilesToLicenses } from '@hankei6km/files-to-licenses'
 
 let result = await esbuild.build({
   entryPoints: ['src/main.ts'],

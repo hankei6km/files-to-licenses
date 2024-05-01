@@ -14,7 +14,7 @@ An example of using the meta information of esbuild.
 
 code: `esbuild.config.mjs`
 
-```ts
+```js
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
